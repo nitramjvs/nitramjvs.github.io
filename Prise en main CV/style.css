@@ -1,0 +1,181 @@
+h1{font-family: fantasy;
+    margin-bottom: 5px;
+    color:rgb(195, 195, 0);
+    text-align:center
+}
+body{
+    background-color: rgb(26, 61, 26);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    color:white;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    color: rgb(195, 195, 0);
+    font-size:xx-large;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+hr{
+    color: rgb(195, 195, 0);
+    background-color: rgb(195, 195, 0);
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 0;
+    height: 4px;
+    opacity: 1;
+
+}
+hr#jaune{
+    color: rgb(195, 195, 0);
+    background-color: rgb(195, 195, 0);
+    height: 3px;
+    width: 6000px;
+    margin-bottom: 0px;
+}
+p{
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    color:white;
+    text-align:justify;
+}
+#calltoaction{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.olivier {
+    width: 100%;
+    margin-top: 95px;
+}
+.onglet{
+    color: rgb(195, 195, 0);
+}
+.navigation {
+    background-color: rgb(26, 61, 26);
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 125%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    
+}
+@media(max-width:600px){
+    body{
+font-size: 90%;
+    }
+}
+@media(max-width:300px){
+    .navigation{
+        font-size: 75%;
+    }
+}
+.année1{
+    margin-top: 15px;
+}
+#carousel {
+  display: flex;
+  overflow-x: auto;
+}
+
+#carousel .carousel-item {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+#carousel .carousel-item img {
+  width: 100%;
+  height: 100%;
+}
+
+#carousel .carousel-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#carousel .carousel-nav.prev {
+  left: 20px;
+}
+
+#carousel .carousel-nav.next {
+  right: 20px;
+}
+.quantity-indicators{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+.quantity-indicator {
+
+    width: 30%;
+    height: 30%;
+    border-radius: 15%;
+    background-color: rgb(195, 195, 0);
+    color: rgb(26, 61, 26);
+    font-size: 9px;
+    text-align: center;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  @media (min-width: 800px) {
+  .quantity-indicator{
+    font-size : 25px;
+  }
+}
+   
+  
+  .quantity-indicator[data-quantity="low"] {
+    background-color: rgb(195, 195, 0);
+  }
+  
+  .quantity-indicator[data-quantity="critical"] {
+    background-color: rgb(26, 61, 26);
+  }
+h1#prisedecommande{
+    margin-top: 115px;
+}
+h1#presentation{
+    margin-top: 15px;
+}
+h1#recoltes{
+    margin-top: 115px;
+}
+footer{
+   bottom: 0;
+   width: 100%;
+   height: 60px;
+}
+.footer#commandeenbas{
+    position: absolute;
+    bottom: 0;
+}
